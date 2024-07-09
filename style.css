@@ -6,6 +6,7 @@ body{
     background-color: #1F2937;
     padding-left: 8.5rem;
     padding-right: 8.5rem;
+    padding-top: 10px;
     padding-bottom: 7rem;
 }
 header{
@@ -24,4 +25,32 @@ header{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: extra-bold;
+}
+button{
+    background-color: #3882F6;
+}
+.midT{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #1F2937;
+    padding-bottom: 4.5rem;
+}
+.imgNtext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.imgNtext p{
+    max-width: 150px;
+}
+.INT{
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 10%;
+    text-align: center;
+    width: 150px;
+    height: 150px;
 }
