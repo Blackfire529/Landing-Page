@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    background-color: #1F2937;
+    padding-left: 8.5rem;
+    padding-right: 8.5rem;
+    padding-bottom: 7rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E7EB;
+}
+#pageDscript{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
